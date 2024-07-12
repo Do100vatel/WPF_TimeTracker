@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
-using WPF_TimeTracker.Models;
 using System;
 using System.ComponentModel;
 using System.Windows.Threading;

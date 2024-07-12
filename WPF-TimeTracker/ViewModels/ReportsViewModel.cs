@@ -1,5 +1,4 @@
 ﻿using System.Collections.ObjectModel;
-using WPF_TimeTracker.Models;
 
 namespace WPF_TimeTracker.ViewModels
 {

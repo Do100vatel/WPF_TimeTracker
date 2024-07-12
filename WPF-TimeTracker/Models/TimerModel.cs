@@ -11,6 +11,6 @@ namespace WPF_TimeTracker
         public string Name { get; set; }
         public TimeSpan ElapsedTime { get; set; }
         public bool IsRunning { get; set; }
-        public DateTime StartTime { get; set; }
+        // public DateTime StartTime { get; set; }
     }
 }

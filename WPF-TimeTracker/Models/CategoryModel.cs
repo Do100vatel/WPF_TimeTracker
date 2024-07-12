@@ -9,7 +9,7 @@ namespace WPF_TimeTracker
     public class CategoryModel
     {
         public string Name { get; set; }
-        public List<TimeEntryModel> TimeEntries { get; set; }
+        public List<TimeEntryModel> TimeEntries { get; set; } = new List<TimeEntryModel>();
 
         public CategoryModel()
         {

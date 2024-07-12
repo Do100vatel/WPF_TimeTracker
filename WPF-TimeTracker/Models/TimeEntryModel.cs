@@ -10,6 +10,6 @@ namespace WPF_TimeTracker
     {
         public DateTime StartTime { get; set; }
         public TimeSpan Duration { get; set; }
-        public string Notes { get; set; }
+        // public string Notes { get; set; }
     }
 }

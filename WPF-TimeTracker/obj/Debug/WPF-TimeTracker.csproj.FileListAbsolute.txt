@@ -1,0 +1,14 @@
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\WPF-TimeTracker.csproj.AssemblyReference.cache
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\WPF-TimeTracker.csproj.SuggestedBindingRedirects.cache
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\WPF-TimeTracker.exe.config
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\CategoryView.baml
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\MainWindow.baml
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\ReportsView.baml
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\CategoryView.g.cs
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\MainWindow.g.cs
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\ReportsView.g.cs
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\Views\TimerView.g.cs
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\App.g.cs
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\WPF-TimeTracker_MarkupCompile.cache
+C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\WPF-TimeTracker_MarkupCompile.lref
