@@ -10,18 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_TimeTracker
 {
     /// <summary>
-    /// Логика взаимодействия для ReportsView.xaml
+    /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class ReportsView : Window
+    public partial class MainWindow : Window
     {
-        public ReportsView()
+        public MainWindow()
         {
             InitializeComponent();
         }
+
     }
 }

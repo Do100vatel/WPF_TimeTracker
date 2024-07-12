@@ -8,12 +8,10 @@ namespace WPF_TimeTracker
 {
     public class TimerModel
     {
-        public string Id { get; set; }
         public string Name { get; set; }
-        public TimeSpan Duration { get; set; }
-        public string CategoryId { get; set; }
-        // add properties
-
+        public TimeSpan ElapsedTime { get; set; }
+        public bool IsRunning { get; set; }
+        public DateTime StartTime { get; set; }
     }
 
     public class CategoryModel

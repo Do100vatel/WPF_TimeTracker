@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="WPF_TimeTracker.Views.TimerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:WPF_TimeTracker.ViewModels"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="400">
+    <UserControl.DataContext>
+        <vm:TimerViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <Button Content="Add Timer" Command="{Binding AddTimerCommand}" />
+        <ListBox ItemsSource="{Binding Timers}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</UserControl>

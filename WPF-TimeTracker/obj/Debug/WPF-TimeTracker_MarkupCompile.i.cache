@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\App.xaml
-4-540258762
+4589357770
 
-13241845131
+19480790064
 402000682192
-CategoryView.xaml;MainWindow.xaml;ReportsView.xaml;TimerView.xaml;
+Views\CategoryView.xaml;Views\MainWindow.xaml;Views\ReportsView.xaml;Views\TimerView.xaml;
 
 False
 

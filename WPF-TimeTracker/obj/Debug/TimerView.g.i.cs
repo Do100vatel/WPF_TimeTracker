@@ -29,16 +29,15 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
-using WPF_TimeTracker;
 
 
-namespace WPF_TimeTracker {
+namespace WPF_TimeTracker.Views {
     
     
     /// <summary>
     /// TimerView
     /// </summary>
-    public partial class TimerView : System.Windows.Window, System.Windows.Markup.IComponentConnector {
+    public partial class TimerView : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
         
         private bool _contentLoaded;
         
