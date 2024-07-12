@@ -34,8 +34,36 @@ namespace WPF_TimeTracker.ViewModels
         {
             if (_currentTimer != null && !_currentTimer.IsRunning)
             {
-                _currentTimer
+                _currentTimer.IsRunning = true;
+                _currentTimer.StartTime = DateTime.Now;
+                _dispatcherTimer.Start();
             }
+        }
 
+        public void StopTimer()
+        {
+            if (_currentTimer != null && _currentTimer.IsRunning)
+            {
+                _currentTimer.IsRunning = true;
+                _currentTimer.StartTime += DateTime.Now - _currentTimer.StartTime;
+                _dispatcherTimer.Stop();
+            }
+        }
+
+        private void DispatcherTimer_Tick(object sender, EventArgs e)
+        {
+                if(_currentTimer != null && _currentTimer.IsRunning)
+                {
+                    OnPropertyChanged(nameof(CurrentTimer));
+                }
+        }
+
+        private event PropertyChangedEventHandler PropertyChanged;
+
+
+        protected void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
     }
 }

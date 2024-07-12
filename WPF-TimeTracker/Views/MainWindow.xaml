@@ -1,23 +1,14 @@
-﻿<Window x:Class="WPF_TimeTracker.Views.MainView"
+﻿<Window x:Class="TimeTracker.MainView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Time Tracker" Height="450" Width="800">
-    <Window.DataContext>
-        <vm:MainViewModel xmlns:vm="clr-namespace:WPF_TimeTracker.ViewModels" />
-    </Window.DataContext>
+        Title="Time Tracker" Height="350" Width="525">
     <Grid>
-        <DockPanel>
-            <Menu DockPanel.Dock="Top">
-                <MenuItem Header="File">
-                    <MenuItem Header="Exit" Click="Exit_Click"/>
-                </MenuItem>
-                <MenuItem Header="View">
-                    <MenuItem Header="Timers" Click="Timers_Click"/>
-                    <MenuItem Header="Categories" Click="Categories_Click"/>
-                    <MenuItem Header="Reports" Click="Reports_Click"/>
-                </MenuItem>
-            </Menu>
-            <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
-        </DockPanel>
+        <StackPanel>
+            <Button Content="Start Timer" Command="{Binding StartTimerCommand}" />
+            <Button Content="Stop Timer" Command="{Binding StopTimerCommand}" />
+            <ComboBox ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" DisplayMemberPath="Name" />
+            <Button Content="Add Time Entry" Command="{Binding AddTimeEntryCommand}" />
+            <TextBlock Text="{Binding CurrentTimer.ElapsedTime}" />
+        </StackPanel>
     </Grid>
 </Window>

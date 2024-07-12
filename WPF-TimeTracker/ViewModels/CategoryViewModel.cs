@@ -1,43 +1,52 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Windows.Input;
-using WPF_TimeTracker.Models;
 
 namespace WPF_TimeTracker.ViewModels
 {
-    public class CategoryViewModel : BaseViewModel
+    public class CategoryViewModel : INotifyPropertyChanged
     {
+        private List<CategoryModel> _categories;
         private CategoryModel _selectedCategory;
-
-        public ObservableCollection<CategoryModel> Categories { get; set; }
-        public CategoryModel SelectedCategory
-        {
-            get => _selectedCategory;
-            set => SetProperty(ref _selectedCategory, value);
-        }
-
-        public ICommand AddCategoryCommand { get; }
-        public ICommand RemoveCategoryCommand { get; }
 
         public CategoryViewModel()
         {
-            Categories = new ObservableCollection<CategoryModel>();
-            AddCategoryCommand = new RelayCommand(AddCategory);
-            RemoveCategoryCommand = new RelayCommand(RemoveCategory, CanRemoveCategory);
+            _categories = new List<CategoryModel>();
         }
 
-        private void AddCategory()
+        public List<CategoryModel> Categories
         {
-            Categories.Add(new CategoryModel { Name = "New Category" });
+            get => _categories;
+            set
+            {
+                _categories = value;
+                OnPropertyChanged(nameof(Categories));
+            }
         }
 
-        private void RemoveCategory()
+        public CategoryModel SelectedCategory
         {
-            Categories.Remove(SelectedCategory);
+            get => _selectedCategory;
+            set
+            {
+                _selectedCategory = value;
+                OnPropertyChanged(nameof(SelectedCategory));
+            }
         }
 
-        private bool CanRemoveCategory()
+        public void AddTimeEntry(TimeEntryModel timeEntry)
         {
-            return SelectedCategory != null;
+            _selectedCategory?.TimeEntries.Add(timeEntry);
+            OnPropertyChanged(nameof(SelectedCategory));
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+
     }
 }

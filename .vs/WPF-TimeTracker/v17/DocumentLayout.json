@@ -3,71 +3,75 @@
   "WorkspaceRootPath": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\models\\timeentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\timeentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\models\\timermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\models\\timermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\timermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\timerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\models\\timeentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\timeentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\timerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\timerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\timerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\timerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\timerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\viewmodels\\reportsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\viewmodels\\reportsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\reportsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\views\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\views\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\games\\source\\repos\\wpf-timetracker\\wpf-timetracker\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\wpf-timetracker\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -82,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\MainWindow.xaml",
@@ -99,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "TimerView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\TimerView.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\TimerView.xaml.cs",
@@ -108,12 +112,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T07:58:16.79Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "TimerView.xaml",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\TimerView.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\TimerView.xaml",
@@ -121,12 +124,11 @@
               "RelativeToolTip": "WPF-TimeTracker\\Views\\TimerView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-12T07:22:26.375Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "CategoryView.xaml",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\CategoryView.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\CategoryView.xaml",
@@ -134,12 +136,11 @@
               "RelativeToolTip": "WPF-TimeTracker\\Views\\CategoryView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-12T07:22:40.863Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "ReportsView.xaml",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\ReportsView.xaml",
@@ -152,132 +153,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TimeEntryModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimeEntryModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\TimeEntryModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimeEntryModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\Models\\TimeEntryModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:25:16.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TimerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCQAAAAdAAAA",
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\RelayCommand.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\RelayCommand.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:15:55.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:24:58.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TimerModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimerModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\TimerModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimerModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\Models\\TimerModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:24:37.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:26:58.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReportsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:26:35.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:21:01.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:09:58.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\MainView.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\MainView.xaml.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\MainView.xaml.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\MainView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:05:23.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ReportsView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
-              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:03:55.887Z",
+              "WhenOpened": "2024-07-12T15:52:35.363Z",
               "EditorCaption": ""
             },
             {
@@ -298,7 +182,134 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:15:55.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\MainView.xaml.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\MainView.xaml.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\MainView.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:05:23.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwC8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:26:58.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAtwDAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:21:01.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T07:24:58.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TimerModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimerModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\TimerModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimerModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\Models\\TimerModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T07:24:37.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TimeEntryModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimeEntryModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\TimeEntryModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Models\\TimeEntryModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\Models\\TimeEntryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T07:25:16.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:26:35.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:09:58.188Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "ReportsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
+              "ToolTip": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:03:55.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "FirebaseService.cs",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\FirebaseService.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\FirebaseService.cs",
@@ -306,12 +317,11 @@
               "RelativeToolTip": "WPF-TimeTracker\\FirebaseService.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAswEkAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:38:50.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T07:38:50.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\App.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\App.xaml",
@@ -323,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\games\\source\\repos\\WPF-TimeTracker\\WPF-TimeTracker\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\MainWindow.xaml.cs",
@@ -331,8 +341,7 @@
               "RelativeToolTip": "WPF-TimeTracker\\Views\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAwwBYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:17:01.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T07:17:01.04Z"
             }
           ]
         }
