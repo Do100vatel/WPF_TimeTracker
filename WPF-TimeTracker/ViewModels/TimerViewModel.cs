@@ -1,21 +1,29 @@
-﻿using System.Collections.ObjectModel;
-using System.Windows.Input;
-using System;
+﻿using System;
 using System.ComponentModel;
-using System.Windows.Threading;
-using System.ComponentModel;
-
 
 namespace WPF_TimeTracker.ViewModels
 {
     public class TimerViewModel : INotifyPropertyChanged
     {
+        private TimerModel _currentTimer;
 
         private DateTime _startTime;
         private TimeSpan _elapsedTime;
         private TimeSpan _duration;
         private bool _isRunning;
 
+        public TimerModel CurrentTimer
+        { 
+            get { return _currentTimer; }
+            set
+            {
+                if (_currentTimer != value)
+                {
+                    _currentTimer = value;
+                    OnPropertyChanged(nameof(CurrentTimer));
+                }
+            }
+        }
         public TimeSpan Duration
         {
             get => _duration;
@@ -73,33 +81,30 @@ namespace WPF_TimeTracker.ViewModels
 
             StartTime = DateTime.Now;
             IsRunning = true;
-            // Логика для запуска таймера 
-            /*
-            if (_currentTimer != null && !_currentTimer.IsRunning)
+
+            // Логика для запуска таймера
+            if (CurrentTimer != null)
             {
-                _currentTimer.IsRunning = true;
-                _currentTimer.StartTime = DateTime.Now;
-                _dispatcherTimer.Start();
+                CurrentTimer.Start();
+                OnPropertyChanged(nameof(CurrentTimer));
             }
-            */
         }
 
         public void StopTimer()
         {
             ElapsedTime = DateTime.Now - StartTime;
             IsRunning = false;
-            /* Логика для остановки таймера
-            if (_currentTimer != null && _currentTimer.IsRunning)
+
+            // Логика для остановки таймера
+            if (CurrentTimer != null)
             {
-                _currentTimer.IsRunning = true;
-                _currentTimer.StartTime += DateTime.Now - _currentTimer.StartTime;
-                _dispatcherTimer.Stop();
+                CurrentTimer.Stop();
+                OnPropertyChanged(nameof(CurrentTimer));
             }
-            */
         }
 
 
-        private event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)
         {

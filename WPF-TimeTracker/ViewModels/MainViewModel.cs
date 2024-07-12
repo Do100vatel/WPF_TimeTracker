@@ -1,9 +1,11 @@
 ﻿using System.ComponentModel;
+using System;
 using System.Windows.Input;
+using FirebaseAdmin.Messaging;
 
 namespace WPF_TimeTracker.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel
     {
         public RelayCommand MyCommand { get; private set; }
 
@@ -67,5 +69,9 @@ namespace WPF_TimeTracker.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
+        private void MyAction()
+        {
+            // Логика для выполнения действия
+        }
     }
 }
