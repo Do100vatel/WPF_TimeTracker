@@ -5,6 +5,8 @@ namespace WPF_TimeTracker.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+        public RelayCommand MyCommand { get; private set; }
+
         public TimerViewModel TimerViewModel { get; set; }
         public CategoryViewModel CategoryViewModel { get; set; }
 
@@ -14,12 +16,10 @@ namespace WPF_TimeTracker.ViewModels
 
         public MainViewModel()
         {
-            TimerViewModel = new TimerViewModel();
-            CategoryViewModel = new CategoryViewModel();
-
-            StartTimerCommand = new RelayCommand(StartTimer);
-            StopTimerCommand = new RelayCommand(StopTimer);
-            AddTimeEntryCommand = new RelayCommand(AddTimeEntry);
+            MyCommand = new RelayCommand(MyAction, CanExecuteMyAction);
+            StartTimerCommand = new RelayCommand(StartTimer, CanExecuteStartStop);
+            StopTimerCommand = new RelayCommand(StopTimer, CanExecuteStartStop);
+            AddTimeEntryCommand = new RelayCommand(AddTimeEntry, CanExecuteAddTimeEntry);
         }
 
         private void StartTimer()
@@ -32,13 +32,32 @@ namespace WPF_TimeTracker.ViewModels
             TimerViewModel.StopTimer();
         }
 
-        private void AddTimeEntry() {
-            var timeEntry = new TimerViewModel
+        private void AddTimeEntry()
+        {
+            var timeEntry = new TimeEntryModel
             {
                 StartTime = TimerViewModel.CurrentTimer.StartTime,
                 Duration = TimerViewModel.CurrentTimer.ElapsedTime
             };
             CategoryViewModel.AddTimeEntry(timeEntry);
+        }
+
+        private bool CanExecuteMyAction()
+        {
+            // Добавьте вашу логику для CanExecute
+            return true;
+        }
+
+        private bool CanExecuteStartStop()
+        {
+            // Логика для определения, можно ли начать или остановить таймер
+            return TimerViewModel != null && TimerViewModel.CurrentTimer != null;
+        }
+
+        private bool CanExecuteAddTimeEntry()
+        {
+            // Логика для определения, можно ли добавить запись времени
+            return TimerViewModel != null && TimerViewModel.CurrentTimer != null && TimerViewModel.CurrentTimer.IsRunning;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -3,66 +3,107 @@ using System.Windows.Input;
 using System;
 using System.ComponentModel;
 using System.Windows.Threading;
+using System.ComponentModel;
+
 
 namespace WPF_TimeTracker.ViewModels
 {
     public class TimerViewModel : INotifyPropertyChanged
     {
-        private TimerModel _currentTimer;
-        private DispatcherTimer _dispatcherTimer;
 
+        private DateTime _startTime;
+        private TimeSpan _elapsedTime;
+        private TimeSpan _duration;
+        private bool _isRunning;
 
-        public TimerViewModel()
+        public TimeSpan Duration
         {
-            _dispatcherTimer = new DispatcherTimer();
-            _dispatcherTimer.Interval = TimeSpan.FromSeconds(1);
-            _dispatcherTimer.Tick += DispatcherTimer_Tick;
-        }
-
-        public TimerModel CurrentTimer
-        {
-            get => _currentTimer;
+            get => _duration;
             set
             {
-                _currentTimer = value;
-                OnPropertyChanged(nameof(CurrentTimer));
+                if (_duration != value)
+                {
+                    _duration = value;
+                    OnPropertyChanged(nameof(Duration));
+                }
+            }
+        }
+
+        public DateTime StartTime
+        {
+            get => _startTime;
+            set
+            {
+                if (_startTime != value)
+                {
+                    _startTime = value;
+                    OnPropertyChanged(nameof(StartTime));
+                }
+            }
+        }
+
+        public TimeSpan ElapsedTime
+        {
+            get => _elapsedTime;
+            set
+            {
+                if (_elapsedTime != value)
+                {
+                    _elapsedTime = value;
+                    OnPropertyChanged(nameof(ElapsedTime));
+                }
+            }
+        }
+
+        private bool IsRunning
+        {
+            get => _isRunning;
+            set
+            {
+                if (_isRunning != value)
+                {
+                    _isRunning = value;
+                    OnPropertyChanged(nameof(IsRunning));
+                }
             }
         }
 
         public void StartTimer()
         {
+
+            StartTime = DateTime.Now;
+            IsRunning = true;
+            // Логика для запуска таймера 
+            /*
             if (_currentTimer != null && !_currentTimer.IsRunning)
             {
                 _currentTimer.IsRunning = true;
                 _currentTimer.StartTime = DateTime.Now;
                 _dispatcherTimer.Start();
             }
+            */
         }
 
         public void StopTimer()
         {
+            ElapsedTime = DateTime.Now - StartTime;
+            IsRunning = false;
+            /* Логика для остановки таймера
             if (_currentTimer != null && _currentTimer.IsRunning)
             {
                 _currentTimer.IsRunning = true;
                 _currentTimer.StartTime += DateTime.Now - _currentTimer.StartTime;
                 _dispatcherTimer.Stop();
             }
+            */
         }
 
-        private void DispatcherTimer_Tick(object sender, EventArgs e)
-        {
-                if(_currentTimer != null && _currentTimer.IsRunning)
-                {
-                    OnPropertyChanged(nameof(CurrentTimer));
-                }
-        }
 
         private event PropertyChangedEventHandler PropertyChanged;
 
-
-        protected void OnPropertyChanged(string name)
+        protected void OnPropertyChanged(string propertyName)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
