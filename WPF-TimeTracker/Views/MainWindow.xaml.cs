@@ -22,7 +22,7 @@ namespace WPF_TimeTracker
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
 
     }

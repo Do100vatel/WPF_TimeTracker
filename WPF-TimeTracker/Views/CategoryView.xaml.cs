@@ -21,7 +21,7 @@ namespace WPF_TimeTracker
     {
         public CategoryView()
         {
-            InitializeComponent();
+            
         }
     }
 }

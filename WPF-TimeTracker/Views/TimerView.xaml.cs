@@ -7,7 +7,7 @@ namespace WPF_TimeTracker
     {
         public TimerView()
         {
-            InitializeComponent();
+            
         }
 
     }

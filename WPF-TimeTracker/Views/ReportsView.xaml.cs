@@ -17,7 +17,7 @@ namespace WPF_TimeTracker
     {
         public ReportsView()
         {
-            InitializeComponent();
+            
         }
     }
 }

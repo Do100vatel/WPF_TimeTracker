@@ -7,7 +7,7 @@ namespace WPF_TimeTracker.Views
     {
         public MainView()
         {
-            InitializeComponent();
+            
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
