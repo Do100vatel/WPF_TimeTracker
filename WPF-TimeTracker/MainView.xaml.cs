@@ -5,10 +5,6 @@ namespace WPF_TimeTracker.Views
 {
     public partial class MainView : Window
     {
-        public MainView()
-        {
-            
-        }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {

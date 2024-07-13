@@ -1,5 +1,6 @@
 ﻿// MainView.xaml.cs
 using System.Windows;
+using WPF_TimeTracker.ViewModels;
 
 namespace WPF_TimeTracker.Views
 {
@@ -8,6 +9,7 @@ namespace WPF_TimeTracker.Views
         public MainView()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }

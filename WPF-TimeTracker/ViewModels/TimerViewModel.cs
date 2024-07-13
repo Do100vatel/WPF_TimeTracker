@@ -24,6 +24,11 @@ namespace WPF_TimeTracker.ViewModels
                 }
             }
         }
+
+        public TimerViewModel()
+        {
+            _currentTimer = new TimerModel();
+        }
         public TimeSpan Duration
         {
             get => _duration;

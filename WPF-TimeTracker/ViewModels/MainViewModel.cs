@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel;
-using System;
 using System.Windows.Input;
-using FirebaseAdmin.Messaging;
+using WPF_TimeTracker.Commands;
 
 namespace WPF_TimeTracker.ViewModels
 {
-    public class MainViewModel
+    public class MainViewModel : INotifyPropertyChanged
     {
         public RelayCommand MyCommand { get; private set; }
 
@@ -18,6 +17,9 @@ namespace WPF_TimeTracker.ViewModels
 
         public MainViewModel()
         {
+            TimerViewModel = new TimerViewModel();
+            CategoryViewModel = new CategoryViewModel();
+
             MyCommand = new RelayCommand(MyAction, CanExecuteMyAction);
             StartTimerCommand = new RelayCommand(StartTimer, CanExecuteStartStop);
             StopTimerCommand = new RelayCommand(StopTimer, CanExecuteStartStop);
@@ -26,16 +28,19 @@ namespace WPF_TimeTracker.ViewModels
 
         private void StartTimer()
         {
+            System.Diagnostics.Debug.WriteLine("StartTimer executed");
             TimerViewModel.StartTimer();
         }
 
         private void StopTimer()
         {
+            System.Diagnostics.Debug.WriteLine("StopTimer executed");
             TimerViewModel.StopTimer();
         }
 
         private void AddTimeEntry()
         {
+            System.Diagnostics.Debug.WriteLine("AddTimeEntry executed");
             var timeEntry = new TimeEntryModel
             {
                 StartTime = TimerViewModel.CurrentTimer.StartTime,
@@ -46,19 +51,16 @@ namespace WPF_TimeTracker.ViewModels
 
         private bool CanExecuteMyAction()
         {
-            // Добавьте вашу логику для CanExecute
             return true;
         }
 
         private bool CanExecuteStartStop()
         {
-            // Логика для определения, можно ли начать или остановить таймер
             return TimerViewModel != null && TimerViewModel.CurrentTimer != null;
         }
 
         private bool CanExecuteAddTimeEntry()
         {
-            // Логика для определения, можно ли добавить запись времени
             return TimerViewModel != null && TimerViewModel.CurrentTimer != null && TimerViewModel.CurrentTimer.IsRunning;
         }
 

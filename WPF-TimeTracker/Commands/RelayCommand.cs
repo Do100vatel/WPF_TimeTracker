@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace WPF_TimeTracker
+namespace WPF_TimeTracker.Commands
 {
     public class RelayCommand : ICommand
     {
