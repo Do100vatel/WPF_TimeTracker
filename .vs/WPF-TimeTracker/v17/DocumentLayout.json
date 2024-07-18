@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -15,7 +15,19 @@
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\user\\source\\repos\\wpf_timetracker\\wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|c:\\users\\user\\source\\repos\\wpf_timetracker\\wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\models\\timeentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -88,10 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FF0BCC42-8802-45B6-B842-FBE29A89A32D}|WPF-TimeTracker\\WPF-TimeTracker.csproj|solutionrelative:wpf-timetracker\\views\\categoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TimerView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\TimerView.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\TimerView.xaml.cs",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TimerView.xaml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\TimerView.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\TimerView.xaml",
@@ -143,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
               "Title": "CategoryView.xaml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\CategoryView.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\CategoryView.xaml",
@@ -151,11 +151,12 @@
               "RelativeToolTip": "WPF-TimeTracker\\Views\\CategoryView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-12T07:22:40.863Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ReportsView.xaml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\ReportsView.xaml",
@@ -163,8 +164,7 @@
               "RelativeToolTip": "WPF-TimeTracker\\Views\\ReportsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-12T07:22:56.832Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -189,14 +189,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\Models\\CategoryModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAABbAAAA",
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\MainView.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\Views\\MainView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:24:58.592Z",
+              "WhenOpened": "2024-07-12T07:17:01.04Z",
               "EditorCaption": ""
             },
             {
@@ -207,7 +207,7 @@
               "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAADwv2kAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T08:26:58.448Z",
               "EditorCaption": ""
@@ -215,6 +215,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAMwEEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:21:01.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "WPF-TimeTracker\\Models\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T07:24:58.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Commands\\RelayCommand.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Commands\\RelayCommand.cs",
@@ -226,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ReportModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\ReportModel.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\ReportModel.cs",
@@ -238,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ReportsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\ReportsViewModel.cs",
@@ -250,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "TimeEntryModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\TimeEntryModel.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\TimeEntryModel.cs",
@@ -262,19 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\ViewModels\\CategoryViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:21:01.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\BaseViewModel.cs",
@@ -286,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TimerModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Models\\TimerModel.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Models\\TimerModel.cs",
@@ -298,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\games\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\games\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
@@ -310,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "TimerViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\ViewModels\\TimerViewModel.cs",
@@ -322,19 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\MainView.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\MainView.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\MainView.xaml.cs",
-              "RelativeToolTip": "WPF-TimeTracker\\Views\\MainView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:17:01.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MainView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\MainView.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\MainView.xaml.cs",
@@ -346,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\App.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\App.xaml.cs",
@@ -358,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\App.xaml",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\App.xaml",
@@ -370,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ReportsView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\ReportsView.xaml.cs",
@@ -382,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CategoryView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\Views\\CategoryView.xaml.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\Views\\CategoryView.xaml.cs",
@@ -394,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "FirebaseService.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WPF_TimeTracker\\WPF-TimeTracker\\FirebaseService.cs",
               "RelativeDocumentMoniker": "WPF-TimeTracker\\FirebaseService.cs",

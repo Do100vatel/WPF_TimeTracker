@@ -20,6 +20,8 @@ namespace WPF_TimeTracker.ViewModels
         public TimerViewModel TimerViewModel { get; set; }
         public CategoryViewModel CategoryViewModel { get; set; }
 
+        public CategoryViewModel CategoryVM { get; set; }
+
         public ICommand StartTimerCommand { get; set; }
         public ICommand StopTimerCommand { get; set; }
         public ICommand AddTimeEntryCommand { get; set; }
@@ -45,6 +47,7 @@ namespace WPF_TimeTracker.ViewModels
             };
             _timer.Tick += OnTimerTick;
 
+            CategoryVM = new CategoryViewModel();
         }
 
         private void OnTimerTick(object sender, EventArgs e)

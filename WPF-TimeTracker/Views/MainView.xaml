@@ -14,6 +14,7 @@
         <StackPanel>
             <Button Content="Start Timer" Command="{Binding StartTimerCommand}" />
             <Button Content="Stop Timer" Command="{Binding StopTimerCommand}" />
+            <Button Content="Manage Categories" Click="ManageCategories_Click" />
             <Button Content="Add Time Entry" Command="{Binding AddTimeEntryCommand}" />
             <ComboBox ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" DisplayMemberPath="Name" />
             <TextBlock Text="{Binding ElapsedTime}" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="16" Margin="10"/>

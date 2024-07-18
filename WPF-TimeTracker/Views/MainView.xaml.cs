@@ -11,5 +11,11 @@ namespace WPF_TimeTracker.Views
             InitializeComponent();
             DataContext = new MainViewModel();
         }
+
+        private void ManageCategories_Click(object sender, RoutedEventArgs e)
+        {
+            var categoryWindow = new CategoryView();
+            categoryWidnow
+        }
     }
 }
