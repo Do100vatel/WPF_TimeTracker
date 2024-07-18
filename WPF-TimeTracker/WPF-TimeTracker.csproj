@@ -138,6 +138,7 @@
     </ApplicationDefinition>
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Models\ReportModel.cs" />
     <Compile Include="Views\CategoryView.xaml.cs">
       <DependentUpon>CategoryView.xaml</DependentUpon>
     </Compile>

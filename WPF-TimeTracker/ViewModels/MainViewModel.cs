@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel;
 using System.Windows.Input;
 using WPF_TimeTracker.Commands;
+using WPF_TimeTracker.Models;
+
 using System.Collections.ObjectModel;
 
 namespace WPF_TimeTracker.ViewModels
