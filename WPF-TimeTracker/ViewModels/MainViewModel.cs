@@ -1,11 +1,13 @@
 ﻿using System.ComponentModel;
 using System.Windows.Input;
 using WPF_TimeTracker.Commands;
+using System.Collections.ObjectModel;
 
 namespace WPF_TimeTracker.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+        public ObservableCollection<TimeEntryModel> TimeEntries { get; set; }
         public RelayCommand MyCommand { get; private set; }
 
         public TimerViewModel TimerViewModel { get; set; }
@@ -20,10 +22,24 @@ namespace WPF_TimeTracker.ViewModels
             TimerViewModel = new TimerViewModel();
             CategoryViewModel = new CategoryViewModel();
 
+            TimeEntries = new ObservableCollection<TimeEntryModel>();
+
             MyCommand = new RelayCommand(MyAction, CanExecuteMyAction);
             StartTimerCommand = new RelayCommand(StartTimer, CanExecuteStartStop);
             StopTimerCommand = new RelayCommand(StopTimer, CanExecuteStartStop);
             AddTimeEntryCommand = new RelayCommand(AddTimeEntry, CanExecuteAddTimeEntry);
+        }
+
+        public ObservableCollection<TimeEntryModel> GetTimeEntries()
+        {
+            return TimeEntries;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         private void StartTimer()
@@ -63,14 +79,6 @@ namespace WPF_TimeTracker.ViewModels
         {
             return TimerViewModel != null && TimerViewModel.CurrentTimer != null && TimerViewModel.CurrentTimer.IsRunning;
         }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged(string name)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
-
         private void MyAction()
         {
             // Логика для выполнения действия

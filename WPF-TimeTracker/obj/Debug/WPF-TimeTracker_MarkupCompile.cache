@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\obj\Debug\
+C:\Users\User\Source\Repos\WPF_TimeTracker\WPF-TimeTracker\obj\Debug\
 WPF_TimeTracker
 none
 false
 DEBUG;TRACE
-C:\Users\games\source\repos\WPF-TimeTracker\WPF-TimeTracker\App.xaml
+C:\Users\User\Source\Repos\WPF_TimeTracker\WPF-TimeTracker\App.xaml
 4-1960925485
 
-19-311794589
-402000682192
+201901084089
+401386548796
 Views\CategoryView.xaml;Views\MainView.xaml;Views\ReportsView.xaml;Views\TimerView.xaml;
 
-False
+True
 
