@@ -1,14 +1,19 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Windows.Input;
+using System.Windows.Threading;
 using WPF_TimeTracker.Commands;
 using WPF_TimeTracker.Models;
-
-using System.Collections.ObjectModel;
 
 namespace WPF_TimeTracker.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+        private DispatcherTimer _timer;
+        private TimeSpan _elapsedTime;
+
         public ObservableCollection<TimeEntryModel> TimeEntries { get; set; }
         public RelayCommand MyCommand { get; private set; }
 
@@ -19,6 +24,9 @@ namespace WPF_TimeTracker.ViewModels
         public ICommand StopTimerCommand { get; set; }
         public ICommand AddTimeEntryCommand { get; set; }
 
+        private ICommand _startTimerCommand;
+        private ICommand _stopTimerCommand;
+
         public MainViewModel()
         {
             TimerViewModel = new TimerViewModel();
@@ -26,11 +34,27 @@ namespace WPF_TimeTracker.ViewModels
 
             TimeEntries = new ObservableCollection<TimeEntryModel>();
 
-            MyCommand = new RelayCommand(MyAction, CanExecuteMyAction);
+            MyCommand = new RelayCommand(MyAction, CanExecuteMyAction); 
             StartTimerCommand = new RelayCommand(StartTimer, CanExecuteStartStop);
             StopTimerCommand = new RelayCommand(StopTimer, CanExecuteStartStop);
             AddTimeEntryCommand = new RelayCommand(AddTimeEntry, CanExecuteAddTimeEntry);
+
+            _timer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromSeconds(1)
+            };
+            _timer.Tick += OnTimerTick;
+
         }
+
+        private void OnTimerTick(object sender, EventArgs e)
+        {
+            _elapsedTime = _elapsedTime.Add(TimeSpan.FromSeconds(1));
+            OnPropertyChanged(nameof(ElapsedTime));
+        }
+
+
+        public string ElapsedTime => _elapsedTime.ToString(@"hh\:mm\:ss");
 
         public ObservableCollection<TimeEntryModel> GetTimeEntries()
         {
@@ -39,21 +63,19 @@ namespace WPF_TimeTracker.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged(string propertyName)
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         private void StartTimer()
         {
-            System.Diagnostics.Debug.WriteLine("StartTimer executed");
-            TimerViewModel.StartTimer();
+            _timer.Start();
         }
 
         private void StopTimer()
         {
-            System.Diagnostics.Debug.WriteLine("StopTimer executed");
-            TimerViewModel.StopTimer();
+            _timer.Stop();
         }
 
         private void AddTimeEntry()
@@ -81,6 +103,8 @@ namespace WPF_TimeTracker.ViewModels
         {
             return TimerViewModel != null && TimerViewModel.CurrentTimer != null && TimerViewModel.CurrentTimer.IsRunning;
         }
+
+
         private void MyAction()
         {
             // Логика для выполнения действия
