@@ -4,13 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_TimeTracker.ViewModels"
+        xmlns:viewmodels="clr-namespace:WPF_TimeTracker.ViewModels"
         mc:Ignorable="d"
         Title="MainView" Height="450" Width="800">
+    
     <Window.DataContext>
-        <local:MainViewModel />
+        <viewmodels:MainViewModel />
     </Window.DataContext>
+
     <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" />
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
         <StackPanel>
             <Button Content="Start Timer" Command="{Binding StartTimerCommand}" />
             <Button Content="Stop Timer" Command="{Binding StopTimerCommand}" />
@@ -18,6 +26,11 @@
             <Button Content="Add Time Entry" Command="{Binding AddTimeEntryCommand}" />
             <ComboBox ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" DisplayMemberPath="Name" />
             <TextBlock Text="{Binding ElapsedTime}" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="16" Margin="10"/>
+            <TextBox Width="200" Text="{Binding CategoryViewModel.NewCategoryName, UpdateSourceTrigger=PropertyChanged}" />
+            <Button Content="Add Category" Command="{Binding CategoryViewModel.AddCategoryCommand}" Margin="5,0,0,0" />
+            <Button Content="Remove Category" Command="{Binding CategoryViewModel.RemoveCategoryCommand}" Margin="5,0,0,0" />
         </StackPanel>
+        
+        <ListBox Grid.Row="1" ItemsSource="{Binding CategoryViewModel.Categories}" DisplayMemberPath="Name" SelectedItem="{Binding CategoryViewModel.SelectedCategory}" Margin="10"/>
     </Grid>
 </Window>

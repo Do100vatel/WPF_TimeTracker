@@ -9,11 +9,20 @@ using WPF_TimeTracker.Models;
 
 namespace WPF_TimeTracker.ViewModels
 {
-    public class CategoryViewModel : INotifyPropertyChanged
+    public class CategoryViewModel : BaseViewModel
     {
         private ObservableCollection<CategoryModel> _categories;
         private string _newCategoryName;
-        private string _selectedCategoryId;
+        private CategoryModel _selectedCategory;
+
+        public ICommand AddCategoryCommand { get; }
+        public ICommand RemoveCategoryCommand {get;}
+        public CategoryViewModel()
+        {
+            Categories = new ObservableCollection<CategoryModel>();
+            AddCategoryCommand = new RelayCommand(AddCategory);
+            RemoveCategoryCommand = new RelayCommand(RemoveCategory, CanRemoveCategory);
+        }
 
         public ObservableCollection<CategoryModel> Categories
         {
@@ -35,54 +44,50 @@ namespace WPF_TimeTracker.ViewModels
             }
         }
 
-        public string SelectedCategoryId
+        public CategoryModel SelectedCategory
         {
-            get => _selectedCategoryId;
+            get => _selectedCategory;
             set
             {
-                _selectedCategoryId = value;
+                _selectedCategory = value;
                 OnPropertyChanged();
             }
         }
 
-        public ICommand AddCategoryCommand { get; }
-        public ICommand DeleteCategoryCommand { get; }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public CategoryViewModel()
-        {
-            Categories = new ObservableCollection<CategoryModel>();
-            AddCategoryCommand = new RelayCommand(AddCategory);
-            DeleteCategoryCommand = new RelayCommand(DeleteCategory);
-        }
 
         private void AddCategory()
         {
-            if (!string.IsNullOrEmpty(NewCategoryName))
+            if (!string.IsNullOrWhiteSpace(NewCategoryName))
             {
-                var newCategory = new CategoryModel
-                {
-                    Id = Guid.NewGuid().ToString(),
-                    Name = NewCategoryName
-                };
+                var newCategory = new CategoryModel { Id = Guid.NewGuid().ToString(), Name = NewCategoryName };
                 Categories.Add(newCategory);
                 NewCategoryName = string.Empty;
             }
         }
 
-        private void DeleteCategory()
+        private void RemoveCategory()
         {
-            var categoryToDelete = Categories.FirstOrDefault(c => c.Id == SelectedCategoryId);
-            if (categoryToDelete != null)
+            if (SelectedCategory != null)
             {
-                Categories.Remove(categoryToDelete);
+                Categories.Remove(SelectedCategory);
             }
         }
 
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        private bool CanRemoveCategory()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            return SelectedCategory != null;
+        }
+
+        public void AddTimeEntry(TimeEntryModel timeEntry)
+        {
+            if (SelectedCategory != null)
+            {
+                var category = Categories.FirstOrDefault(c => c.Id == SelectedCategory.Id);
+                if (category != null)
+                {
+                    category.TimeEntries.Add(timeEntry);
+                }
+            }
         }
     }
 }

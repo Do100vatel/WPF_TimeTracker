@@ -15,7 +15,7 @@ namespace WPF_TimeTracker.Views
         private void ManageCategories_Click(object sender, RoutedEventArgs e)
         {
             var categoryWindow = new CategoryView();
-            categoryWidnow
+            categoryWindow.ShowDialog();
         }
     }
 }
